@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.msg{
+    color: red;
+    font-size: 18px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: slategray;
+}
+
+.form form{
+    background-color: rgb(244, 244, 244);
+    text-align: center;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 30rem;
+}
+.form form h2{
+    margin-bottom: 1.5rem;
+}
+
+.form form input{
+    padding: 5px 15px;
+    font-size: 15px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.form form button{
+    width: 50%;
+    margin-top: 10px;
+    background-color: royalblue;
+    color: white;
+    font-size: 18px;
+}
+
+.form form p{
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+body{
+    background-color: slategray;
+}
+
+.user-page{
+    text-align: center;
+    margin: 15rem auto;
+    background-color: white;
+    padding: 1rem 2rem;
+    max-width: 500px;
+}
+
+.user-page p{
+    font-size: 12px;
+    margin-top: 2rem;
+}
+
+.user-page button{
+    margin-top: 15px;
+    color: white;
+    background-color: royalblue;
+    padding: 10px 25px;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+}
