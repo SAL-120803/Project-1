@@ -1,5 +1,5 @@
 <?php
-    $conn= mysqli_connect("localhost","root","1234","login_db");
+    $conn= mysqli_connect("localhost","root","1234","db_register");
     if(!($conn)){
         echo "Connection not established";
     }
